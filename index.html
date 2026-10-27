@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Portal</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f5fb;
+            color: #263449;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin-bottom: 0;
+        }
+
+        nav {
+            background: #092b4c;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            margin: 5px 8px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #8bd3ff;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 18px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #00000010;
+        }
+
+        h2 {
+            color: #123c69;
+            margin-top: 0;
+        }
+
+        .lesson {
+            background: #eaf2ff;
+            border-left: 5px solid #2878c8;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 7px;
+        }
+
+        .lesson h3 {
+            margin-top: 0;
+            color: #123c69;
+        }
+
+        .welcome {
+            text-align: center;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #d7e9ff;
+            color: #123c69;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        footer {
+            background: #092b4c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            main {
+                padding: 12px;
+              
+button {
+    background-color: #123c69;
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2878c8;
+}
+
+#result {
+    color: #123c69;
+    margin-top: 20px;
+}
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <span class="tag">STUDENT EDUCATION</span>
+        <h1>Student Learning Portal</h1>
+        <p>Obligations and Contracts</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#examples">Examples</a>
+        <a href="#reviewer">Reviewer</a>
+    </nav>
+
+    <main>
+
+        <section id="home" class="welcome">
+            <h2>Welcome, Students!</h2>
+            <p>
+                Learn the fundamental concepts of Obligations
+                and Contracts through lessons and examples.
+            </p>
+        </section>
+
+        <section id="about">
+            <h2>About This Portal</h2>
+            <p>
+                This educational website provides organized
+                learning materials to help students understand
+                obligations, contracts, legal responsibilities,
+                and the consequences of non-performance.
+            </p>
+        </section>
+
+        <section id="lessons">
+            <h2>Learning Modules</h2>
+
+            <div class="lesson">
+                <h3>Lesson 1: Obligations</h3>
+                <p>
+                    Understand the meaning, essential elements,
+                    and basic concepts of obligations.
+                </p>
+            </div>
+
+            <div class="lesson">
+                <h3>Lesson 2: Sources of Obligations</h3>
+                <p>
+                    Learn the five sources of obligations under
+                    Article 1157 of the Civil Code.
+                </p>
+            </div>
+
+            <div class="lesson">
+                <h3>Lesson 3: Contracts</h3>
+                <p>
+                    Study consent, object, and cause, the
+                    essential requisites under Article 1318.
+                </p>
+            </div>
+
+            <div class="lesson">
+                <h3>Lesson 4: Breach of Obligations</h3>
+                <p>
+                    Explore the legal consequences of failing
+                    to fulfill an obligation.
+                </p>
+            </div>
+        </section>
+
+        <section id="examples">
+            <h2>Practical Examples</h2>
+
+            <div class="lesson">
+                <h3>Borrowing Money</h3>
+                <p>
+                    Ana borrows ₱1,000 from Ben and agrees
+                    to repay it. Their agreement may create
+                    an obligation to repay the amount.
+                </p>
+            </div>
+
+            <div class="lesson">
+                <h3>Buying a Product</h3>
+                <p>
+                    A buyer agrees to pay for a product,
+                    while the seller agrees to deliver it.
+                </p>
+            </div>
+        </section>
+
+        
+<section id="reviewer">
+    <h2>Student Reviewer Quiz</h2>
+    <p>Test your knowledge of Obligations and Contracts!</p>
+
+    <form id="quizForm">
+
+        <div class="lesson">
+            <h3>1. What is an obligation?</h3>
+
+            <label>
+                <input type="radio" name="q1" value="a">
+                A. A legal duty to give, do, or not do something
+            </label><br>
+
+            <label>
+                <input type="radio" name="q1" value="b">
+                B. A school subject only
+            </label><br>
+
+            <label>
+                <input type="radio" name="q1" value="c">
+                C. A type of computer
+            </label>
+        </div>
+
+        <div class="lesson">
+            <h3>2. What are the essential requisites of a contract?</h3>
+
+            <label>
+                <input type="radio" name="q2" value="a">
+                A. Money, paper, and pen
+            </label><br>
+
+            <label>
+                <input type="radio" name="q2" value="b">
+                B. Consent, object, and cause
+            </label><br>
+
+            <label>
+                <input type="radio" name="q2" value="c">
+                C. Name, age, and address
+            </label>
+        </div>
+
+        <div class="lesson">
+            <h3>3. Which is a source of obligations?</h3>
+
+            <label>
+                <input type="radio" name="q3" value="a">
+                A. Hobbies
+            </label><br>
+
+            <label>
+                <input type="radio" name="q3" value="b">
+                B. Favorite colors
+            </label><br>
+
+            <label>
+                <input type="radio" name="q3" value="c">
+                C. Contracts
+            </label>
+        </div>
+
+        <button type="submit">Check My Score</button>
+    </form>
+
+    <h3 id="result" aria-live="polite"></h3>
+</section>
+
+<script>
+    document.getElementById("quizForm")
+        .addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        let score = 0;
+        const answers = {
+            q1: "a",
+            q2: "b",
+            q3: "c"
+        };
+
+        for (let question in answers) {
+            const selected = document.querySelector(
+                'input[name="' + question + '"]:checked'
+            );
+
+            if (selected && selected.value === answers[question]) {
+                score++;
+            }
+        }
+
+        document.getElementById("result").textContent =
+            "Your Score: " + score + " out of 3";
+    });
+</script>
